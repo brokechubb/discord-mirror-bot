@@ -1,12 +1,10 @@
 # Discord Message Forwarder Bot
 
-![banner](https://media.discordapp.net/attachments/1260269061821042790/1307589115365031946/New_Project_13.png?ex=673adac2&is=67398942&hm=ec35bf533da24f4c64a84ed832a73c440382528189fea4d05dd7b6dee523940a&=&format=webp&quality=lossless&width=1702&height=888)
-
 This project uses `discord.js-selfbot-v13` to forward messages from specific Discord channels to predefined webhooks. The bot processes messages, removes certain mentions, and forwards them along with embeds, attachments, and stickers.
 
 ## 📋 Original Project
 
-This is a fork of the original Discord Mirror Bot created by [gitarynnn](https://github.com/gitarynnn/discord-mirror). The original project can be found at: https://github.com/gitarynnn/discord-mirror
+This is a fork of the original Discord Mirror Bot created by [gitarynnn](https://github.com/gitarynnn/discord-mirror). The original project can be found at: <https://github.com/gitarynnn/discord-mirror>
 
 ### 🆕 What's New in This Fork
 
@@ -42,6 +40,7 @@ This is a fork of the original Discord Mirror Bot created by [gitarynnn](https:/
 ### Configuration Files
 
 **`config.example.js`** - Bot configuration template:
+
 ```javascript
 module.exports = {
     token: 'YOUR_DISCORD_TOKEN_HERE',        // Your Discord account token
@@ -50,6 +49,7 @@ module.exports = {
 ```
 
 **`webhookMap.example.json`** - Channel to webhook mapping template:
+
 ```json
 {
     "YOUR_CHANNEL_ID_1": "YOUR_WEBHOOK_URL_1",
@@ -60,6 +60,7 @@ module.exports = {
 ### Setup Instructions
 
 1. **Copy the example files:**
+
    ```bash
    cp config.example.js config.js
    cp webhookMap.example.json webhookMap.json
@@ -190,10 +191,12 @@ This will use production-specific environment variables and settings.
 ## 🙏 Credits
 
 ### Original Developer
+
 - **Original Project**: [gitarynnn/discord-mirror](https://github.com/gitarynnn/discord-mirror)
 - **Original Developer**: [gitarynnn](https://github.com/gitarynnn)
 
 ### This Fork
+
 - **Fork Maintainer**: [brokechubb](https://github.com/brokechubb)
 - **Repository**: [brokechubb/discord-mirror-bot](https://github.com/brokechubb/discord-mirror-bot)
 
