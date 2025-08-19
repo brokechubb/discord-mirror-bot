@@ -1,0 +1,25 @@
+{
+  "name": "discord-mirror",
+  "version": "1.0.0",
+  "description": "Discord message mirroring bot",
+  "main": "mirror.js",
+  "scripts": {
+    "start": "node mirror.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop discord-mirror",
+    "pm2:restart": "pm2 restart discord-mirror",
+    "pm2:reload": "pm2 reload discord-mirror",
+    "pm2:delete": "pm2 delete discord-mirror",
+    "pm2:logs": "pm2 logs discord-mirror",
+    "pm2:monit": "pm2 monit",
+    "pm2:status": "pm2 status",
+    "pm2:save": "pm2 save",
+    "pm2:startup": "pm2 startup"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "discord.js-selfbot-v13": "^3.6.1",
+    "fs": "^0.0.1-security",
+    "pm2": "^6.0.5"
+  }
+}
